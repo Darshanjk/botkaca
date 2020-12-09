@@ -11,6 +11,7 @@ CONFIG = Config({
     'MAX_LOG_SIZE' : 10 * 1024 * 1024,
     'API_HASH' : None,
     'API_ID' : None,
+    'AUTH_CHANNEL' : -1001407549662,
     'BOT_TOKEN' : None,
     'BOT_PASSWORD' : None,
     'CHAT_ID' : '',
