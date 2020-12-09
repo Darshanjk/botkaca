@@ -3,7 +3,7 @@ from bot.locals import Local
 
 LOCAL = Local({
     'WRONG_ROOM' : 'I a\'m not suppose to be here.\nID : <code>{CHAT_ID}</code>',
-    'WELCOME_MESSAGE' : "Hi!\nI'm <b>Botkaca</b>!\nPowered by pyrogram.\nFork: <a href='https://github.com/azamaulanaaa/botkaca'>github.com/azamaulanaaa/botkaca</a>",
+    'WELCOME_MESSAGE' : "Hi!\nI'm <b>JK_Leecher</b>!\nUse me for leech link or Magnetlink.\n",
     'PASS_REQUIRED' : '\n\nUse <code>/{cmd_pass} </code>to enter the password.',
     'LEECH_LIST_MESSAGE_HEADER' : '<b>Leech Status</b>',
     'LEECH_LIST_FORMAT' : 'Name: <code>{name}</code>\nStatus: {status}\nID: <code>{gid}</code>\n\n',
@@ -20,8 +20,8 @@ LOCAL = Local({
     'SPLIT_FILE' : 'Spliting : <code>{name}</code>',
     'SPLIT_FAILED' : 'Split : Failed.\n<code>{name}</code>',
     'THUMBNAIL_NO_PHOTO' : 'Set <code>/{cmd_set_thumbnail}</code> as your photo caption.',
-    'THUMBNAIL_DOWNLOADING' : 'Downloading thumbnail.',
-    'THUMBNAIL_DOWNLOADED' : 'Thumbnail download.',
+    'THUMBNAIL_DOWNLOADING' : 'Downloading thumbnail😍.',
+    'THUMBNAIL_DOWNLOADED' : 'Thumbnail downloaded☑️.',
     'THUMBNAIL_APPLIED' : 'Thumbnail applied.',
     'THUMBNAIL_DELETING' : 'Deleting thumbnail.',
     'THUMBNAIL_RESET' : 'Thumbnail reset.',
@@ -42,6 +42,6 @@ LOCAL = Local({
     'COMMAND_UPLOAD_AS_DOC' : 'toggle upload anything as document',
     'COMMAND_UPLOAD_AS_ZIP' : 'toggle upload anything as bundled zipfile',
     'COMMAND_SET_TRACKER' : 'set default tracker, sparated by newline',
-    'BLOCK_EMPTY' : "▱",
-    "BLOCK_FILLED" : "▰"
+    'BLOCK_EMPTY' : "⚪",
+    "BLOCK_FILLED" : "⭕"
 })
