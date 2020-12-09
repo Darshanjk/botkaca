@@ -8,6 +8,7 @@ import asyncio
 app = Client(
     "Bot",
     bot_token=CONFIG.BOT_TOKEN,
+    auth_channel=CONFIG.AUTH_CHANNEL
     api_id=CONFIG.API_ID,
     api_hash=CONFIG.API_HASH,
     workdir=os_path_join(CONFIG.ROOT, CONFIG.WORKDIR),
