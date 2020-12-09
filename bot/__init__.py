@@ -11,7 +11,7 @@ CONFIG = Config({
     'MAX_LOG_SIZE' : 10 * 1024 * 1024,
     'API_HASH' : None,
     'API_ID' : None,
-    'AUTH_CHANNEL' : -1001407549662,
+    'AUTH_CHANNEL' : '',
     'BOT_TOKEN' : None,
     'BOT_PASSWORD' : None,
     'CHAT_ID' : '',
@@ -99,5 +99,5 @@ STATUS = type('obj', (object,), {
     'UPLOAD_AS_DOC' : bool(int(CONFIG.UPLOAD_AS_DOC)),
     'UPLOAD_AS_ZIP' : bool(int(CONFIG.UPLOAD_AS_ZIP)),
     'DEFAULT_TRACKER' : CONFIG.TORRENT_TRACKER.split(','),
-    'CHAT_ID' : CONFIG.CHAT_ID.split(',')
+    'AUTH_CHANNEL' : CONFIG.AUTH_CHANNEL.split(',')
 })
